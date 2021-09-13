@@ -1,28 +1,28 @@
 import 'package:flutter/material.dart';
-import 'package:banking_app_ui/screens/base_screen.dart';
+import 'package:online_banking_app_ui/constants/color_constants.dart';
+import 'package:online_banking_app_ui/screens/base_scren.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
-
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        debugShowCheckedModeBanner: false,
-        title: 'Banking App',
-        theme: ThemeData(
-          scaffoldBackgroundColor: Colors.white,
-          fontFamily: "Poppins",
-          appBarTheme: AppBarTheme(
-            backgroundColor: Colors.white,
-            elevation: 0,
-          ),
-          primarySwatch: Colors.blue,
+      debugShowCheckedModeBanner: false,
+      title: 'Flutter Demo',
+      theme: ThemeData(
+        scaffoldBackgroundColor: Colors.white,
+        fontFamily: "Poppins",
+        appBarTheme: AppBarTheme(
+          backgroundColor: Colors.white,
+          elevation: 0,
         ),
-        home: BaseScreen());
+        primarySwatch: Colors.blue,
+      ),
+      home: BaseScreen(),
+    );
   }
 }

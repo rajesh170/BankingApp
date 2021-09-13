@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:banking_app_ui/constants/color_constants.dart';
+import 'package:online_banking_app_ui/constants/color_constants.dart';
 
 class ApptextStyle {
   static const TextStyle MY_CARD_TITLE =
