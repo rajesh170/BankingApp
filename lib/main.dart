@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:online_banking_app_ui/constants/color_constants.dart';
-import 'package:online_banking_app_ui/screens/base_scren.dart';
+import 'package:online_banking_app_ui/screens/splash_page.dart';
 
 void main() {
   runApp(MyApp());
@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
         ),
         primarySwatch: Colors.blue,
       ),
-      home: BaseScreen(),
+      home: SplashPage(),
     );
   }
 }

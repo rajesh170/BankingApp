@@ -56,12 +56,6 @@
       "languageVersion": "2.12"
     },
     {
-      "name": "flutter_lints",
-      "rootUri": "file:///home/rajesh/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_lints-1.0.4",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
       "name": "flutter_test",
       "rootUri": "file:///home/rajesh/snap/flutter/common/flutter/packages/flutter_test",
       "packageUri": "lib/",
@@ -70,12 +64,6 @@
     {
       "name": "font_awesome_flutter",
       "rootUri": "file:///home/rajesh/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/font_awesome_flutter-9.1.0",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
-      "name": "lints",
-      "rootUri": "file:///home/rajesh/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/lints-1.0.1",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -152,13 +140,13 @@
       "languageVersion": "2.12"
     },
     {
-      "name": "banking_app_ui",
+      "name": "online_banking_app_ui",
       "rootUri": "../",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "2.7"
     }
   ],
-  "generated": "2021-09-11T09:58:06.803066Z",
+  "generated": "2021-09-14T06:31:08.617736Z",
   "generator": "pub",
   "generatorVersion": "2.14.0-188.5.beta"
 }
