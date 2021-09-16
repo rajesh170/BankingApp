@@ -2,7 +2,7 @@
     package="com.example.online_banking_app_ui">
    <application
         android:label="online_banking_app_ui"
-        android:icon="@mipmap/ic_launcher">
+        android:icon="@drawable/mcard">
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"

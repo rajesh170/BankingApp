@@ -7,12 +7,7 @@ import 'package:online_banking_app_ui/screens/base_scren.dart';
 
 import 'login_page.dart';
 
-class RegPage extends StatefulWidget {
-  @override
-  _RegPageState createState() => _RegPageState();
-}
-
-class _RegPageState extends State<RegPage> {
+class RegPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
